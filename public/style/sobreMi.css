@@ -6,7 +6,7 @@
 .caja {
     background: #fff;
     margin: 20px 20px 20px 20px;
-    padding: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
     border-radius: 10px;
     box-shadow:   0 0 10px #c7c7c780;
     text-align: center;
@@ -25,4 +25,21 @@
     font-weight: 600;
     letter-spacing: 2px;
     margin-bottom: 20px;
+}
+.caja a{
+    text-decoration: none;
+    color: #000000;
+    background: #ddd;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 30px #c7c7c780;
+}
+.caja a:hover{
+    background: #000000;
+    color: #fff;
+    box-shadow: 0 0 10px #16161680;
 }
