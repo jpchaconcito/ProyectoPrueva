@@ -1,0 +1,26 @@
+.inicio {
+    margin-top: 70px;
+}
+.inicio h1 {
+
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.inicio p {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.contenedorInicio {
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow:   0 0 10px #c7c7c780;
+}

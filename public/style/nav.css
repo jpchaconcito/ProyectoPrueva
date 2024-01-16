@@ -1,0 +1,64 @@
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+}
+.logoNavBar {
+    display: flex;
+    object-position: left;
+    padding: 10px 12px;
+    margin-left: 10px;
+    text-align: center;
+    align-items: center;
+}
+.logoNavBar img {
+    width: 35px;
+    height: 35px;
+    margin: 10px 10px;
+    margin-right: 20px;
+}
+.logoNavBar h1 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.btnNavBar {
+    text-align: center;
+    align-items: center;
+}
+.btnNavBar img {
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px;
+}
+.btnNavBar a {
+    float: left;
+    color: #000000;
+    padding: 10px 12px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    text-decoration-line: none;
+    border-radius: 5px;
+}
+
+.btnNavBar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+nav {
+    background: #ededed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
